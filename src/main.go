@@ -1,16 +1,16 @@
 package main
 
 import (
-	"demo1/test1/arrdemo"
-	"demo1/test1/calculate"
-	"demo1/test1/enumdemo"
-	"demo1/test1/formatdemo"
-	"demo1/test1/functiondemo"
-	"demo1/test1/judge"
-	"demo1/test1/reference"
-	"demo1/test1/stringutil"
-	"demo1/test1/structdemo"
 	"fmt"
+	"godemo/src/arrdemo"
+	"godemo/src/calculate"
+	"godemo/src/enumdemo"
+	"godemo/src/formatdemo"
+	"godemo/src/functiondemo"
+	"godemo/src/judge"
+	"godemo/src/reference"
+	"godemo/src/stringutil"
+	"godemo/src/structdemo"
 	"strconv"
 	"unsafe"
 )
