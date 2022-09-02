@@ -1,6 +1,7 @@
 package main
 
 import (
+	"demo1/test1/arrdemo"
 	"demo1/test1/calculate"
 	"demo1/test1/enumdemo"
 	"demo1/test1/formatdemo"
@@ -80,4 +81,10 @@ func main() {
 	functiondemo.TodayTodo()
 
 	functiondemo.ClosePackTest()
+
+	functiondemo.DelayTest()
+
+	functiondemo.InitTest()
+
+	arrdemo.ArrayTest()
 }
