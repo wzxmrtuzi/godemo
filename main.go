@@ -68,4 +68,16 @@ func main() {
 	reference.Quote()
 
 	reference.ArrTest()
+
+	reference.MapTest()
+
+	sum, _ = functiondemo.Anonymous1()
+	_, avg = functiondemo.Anonymous1()
+	fmt.Println(sum, avg)
+	sum, _ = functiondemo.Anonymous2()
+	fmt.Println(sum)
+
+	functiondemo.TodayTodo()
+
+	functiondemo.ClosePackTest()
 }
