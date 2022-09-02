@@ -8,6 +8,7 @@ import (
 	"godemo/src/formatdemo"
 	"godemo/src/functiondemo"
 	"godemo/src/judge"
+	"godemo/src/mapdemo"
 	"godemo/src/reference"
 	"godemo/src/slicedemo"
 	"godemo/src/stringutil"
@@ -90,4 +91,6 @@ func main() {
 	arrdemo.ArrayTest()
 
 	slicedemo.SliceTest()
+
+	mapdemo.MapTest()
 }
