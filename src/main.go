@@ -9,6 +9,7 @@ import (
 	"godemo/src/functiondemo"
 	"godemo/src/judge"
 	"godemo/src/reference"
+	"godemo/src/slicedemo"
 	"godemo/src/stringutil"
 	"godemo/src/structdemo"
 	"strconv"
@@ -87,4 +88,6 @@ func main() {
 	functiondemo.InitTest()
 
 	arrdemo.ArrayTest()
+
+	slicedemo.SliceTest()
 }
