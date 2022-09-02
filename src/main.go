@@ -54,11 +54,6 @@ func main() {
 
 	enumdemo.EnumTest()
 
-	user := structdemo.GetUser()
-	fmt.Println(structdemo.GetName(user), structdemo.GetAge(user))
-	user = structdemo.SetAge(user, 55)
-	fmt.Println(user)
-
 	fmt.Println(strconv.FormatInt(int64(19), 2))
 
 	// judge.JudgeTest()
@@ -93,4 +88,6 @@ func main() {
 	slicedemo.SliceTest()
 
 	mapdemo.MapTest()
+
+	structdemo.UserTest()
 }
