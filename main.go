@@ -64,4 +64,8 @@ func main() {
 
 	sum, avg := functiondemo.FuncTest()
 	fmt.Println("123", sum, avg)
+
+	reference.Quote()
+
+	reference.ArrTest()
 }
