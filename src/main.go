@@ -7,6 +7,7 @@ import (
 	"godemo/src/enumdemo"
 	"godemo/src/formatdemo"
 	"godemo/src/functiondemo"
+	"godemo/src/interfacedemo"
 	"godemo/src/judge"
 	"godemo/src/mapdemo"
 	"godemo/src/reference"
@@ -90,4 +91,6 @@ func main() {
 	mapdemo.MapTest()
 
 	structdemo.UserTest()
+
+	interfacedemo.InterFaceTest()
 }
