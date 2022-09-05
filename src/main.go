@@ -6,6 +6,7 @@ import (
 	"godemo/src/calculate"
 	"godemo/src/classdemo"
 	"godemo/src/enumdemo"
+	"godemo/src/errordemo"
 	"godemo/src/formatdemo"
 	"godemo/src/functiondemo"
 	"godemo/src/interfacedemo"
@@ -111,4 +112,6 @@ func main() {
 	}
 	fmt.Println(person2)
 	pInterFace.Eat()
+
+	errordemo.ErrorTest()
 }
