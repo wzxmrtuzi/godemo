@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"godemo/src/arrdemo"
 	"godemo/src/calculate"
+	"godemo/src/classdemo"
 	"godemo/src/enumdemo"
 	"godemo/src/formatdemo"
 	"godemo/src/functiondemo"
@@ -93,4 +94,21 @@ func main() {
 	structdemo.UserTest()
 
 	interfacedemo.InterFaceTest()
+
+	person1 := classdemo.Person{}
+	person1.SetName("张三")
+	stu1 := classdemo.Student{}
+	stu1.SetPerson(person1)
+	stu1.SetGrade("六年级")
+	stu1.Eat()
+	fmt.Println("学生1", stu1)
+
+	var pInterFace classdemo.PersonInterface = classdemo.Person{}
+	var person2 classdemo.Person
+	if p, ok := pInterFace.(classdemo.Person); ok {
+		p.SetName("李四")
+		person2 = p
+	}
+	fmt.Println(person2)
+	pInterFace.Eat()
 }
