@@ -114,4 +114,6 @@ func main() {
 	pInterFace.Eat()
 
 	errordemo.ErrorTest()
+
+	stringutil.StringTest()
 }
