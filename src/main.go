@@ -16,6 +16,7 @@ import (
 	"godemo/src/slicedemo"
 	"godemo/src/stringutil"
 	"godemo/src/structdemo"
+	"godemo/src/timedemo"
 	"strconv"
 	"unsafe"
 )
@@ -116,4 +117,6 @@ func main() {
 	errordemo.ErrorTest()
 
 	stringutil.StringTest()
+
+	timedemo.TimeTest()
 }
