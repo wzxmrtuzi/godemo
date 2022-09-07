@@ -5,6 +5,7 @@ import (
 	"godemo/src/arrdemo"
 	"godemo/src/calculate"
 	"godemo/src/classdemo"
+	"godemo/src/concurrencydemo"
 	"godemo/src/enumdemo"
 	"godemo/src/errordemo"
 	"godemo/src/filedemo"
@@ -122,4 +123,11 @@ func main() {
 	timedemo.TimeTest()
 
 	filedemo.FileTest()
+
+	concurrencydemo.ConcurrentCyTest()
+
+	concurrencydemo.LockTest()
+	for {
+	}
+
 }
