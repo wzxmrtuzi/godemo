@@ -6,9 +6,12 @@ import (
 	"godemo/src/calculate"
 	"godemo/src/channeldemo"
 	"godemo/src/classdemo"
+	"godemo/src/selectdemo"
+
 	// "godemo/src/concurrencydemo"
 	"godemo/src/enumdemo"
 	"godemo/src/errordemo"
+
 	// "godemo/src/filedemo"
 	"godemo/src/formatdemo"
 	"godemo/src/functiondemo"
@@ -130,5 +133,7 @@ func main() {
 	// concurrencydemo.LockTest()
 
 	channeldemo.ChannelTest()
+
+	selectdemo.SelectTest()
 
 }
