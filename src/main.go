@@ -4,11 +4,12 @@ import (
 	"fmt"
 	"godemo/src/arrdemo"
 	"godemo/src/calculate"
+	"godemo/src/channeldemo"
 	"godemo/src/classdemo"
-	"godemo/src/concurrencydemo"
+	// "godemo/src/concurrencydemo"
 	"godemo/src/enumdemo"
 	"godemo/src/errordemo"
-	"godemo/src/filedemo"
+	// "godemo/src/filedemo"
 	"godemo/src/formatdemo"
 	"godemo/src/functiondemo"
 	"godemo/src/interfacedemo"
@@ -122,12 +123,13 @@ func main() {
 
 	timedemo.TimeTest()
 
-	filedemo.FileTest()
+	// filedemo.FileTest()
 
-	concurrencydemo.ConcurrentCyTest()
+	// concurrencydemo.ConcurrentCyTest()
 
-	concurrencydemo.LockTest()
+	// concurrencydemo.LockTest()
+
+	channeldemo.ChannelTest()
 	for {
 	}
-
 }
