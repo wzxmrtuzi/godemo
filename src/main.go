@@ -130,6 +130,5 @@ func main() {
 	// concurrencydemo.LockTest()
 
 	channeldemo.ChannelTest()
-	for {
-	}
+
 }

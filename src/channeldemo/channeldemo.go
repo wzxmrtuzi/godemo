@@ -18,7 +18,7 @@ func ChannelTest() {
 	// producerAndConsumerTest()
 	// channelBufTest()
 	// oneWayChannel()
-	channelAsParam()
+	// channelAsParam()
 }
 
 // Channel阻塞现象
@@ -208,4 +208,6 @@ func channelAsParam() {
 	}
 	go producer(mych)
 	consumer(mych)
+	for {
+	}
 }
