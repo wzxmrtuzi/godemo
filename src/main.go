@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"godemo/src/arrdemo"
 	"godemo/src/calculate"
-	"godemo/src/channeldemo"
+	// "godemo/src/channeldemo"
 	"godemo/src/classdemo"
-	"godemo/src/selectdemo"
+	// "godemo/src/selectdemo"
 
 	// "godemo/src/concurrencydemo"
 	"godemo/src/enumdemo"
@@ -132,8 +132,9 @@ func main() {
 
 	// concurrencydemo.LockTest()
 
-	channeldemo.ChannelTest()
+	// channeldemo.ChannelTest()
 
-	selectdemo.SelectTest()
+	// selectdemo.SelectTest()
 
+	timedemo.TimingTest()
 }
