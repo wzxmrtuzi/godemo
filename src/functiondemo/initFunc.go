@@ -20,6 +20,6 @@ func InitTest() {
 }
 
 // init函数用于处理当前文件的初始化操作, 在使用某个文件时的一些准备工作应该放到这里
-func init() {
-	fmt.Println("init func")
-}
+// func init() {
+// 	fmt.Println("init func")
+// }
